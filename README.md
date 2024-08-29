@@ -20,9 +20,9 @@ Lucem requires a working Nim toolchain which can be installed via [choosenim](ht
 
 Run the following commands to compile Lucem.
 ```command
-$ git clone https://github.com/xTrayambak/lucem.git
-$ cd lucem
-$ nimble install -d:release
+git clone https://github.com/xTrayambak/lucem.git
+cd lucem
+nimble install -d:release
 ```
 
 # Usage
@@ -30,19 +30,19 @@ $ nimble install -d:release
 Run this command:
 
 ```command
-$ lucem init
+lucem init
 ```
 
 You will be guided as to how you can download the latest Roblox APK.
 
 ## Configuring Lucem
 ```command
-$ lucem edit-config
+lucem edit-config
 ```
 
 This will open the configuration file in your preferred editor.
 
 ## Launching Roblox
 ```command
-# lucem run
+lucem run
 ```
